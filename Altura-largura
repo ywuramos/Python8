@@ -1,0 +1,11 @@
+"""al = float(input('Qual altura da parede: '))
+la = float(input('Qual largura: '))
+a = al * la
+ti = a / 2
+print('metro quadrado {} Quantidade de tinta {}'.format(a, ti))"""
+
+# -----------------------
+altura = float(input('Altura = '))
+largura = float(input('Largura: '))
+area = altura * largura
+print('Aréa = {}m², Quant. de tinta = {}L'.format(area, area/2))
